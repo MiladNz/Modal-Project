@@ -10,16 +10,16 @@
 }
 
 .modal {
-    z-index: 10;
-    width: 20rem;
-    height: 200px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    width: 15rem;
+    height: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
     box-shadow: 0 20px 100px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     opacity: 0;
     transition: all 0.8s ease-in-out;
     transform: translateY(-100vh);
+    z-index: 10;
 }
 
 body {
@@ -28,4 +28,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h4 , .confirm-modal , .close-modal {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.show-modal {
+    
+}
+
+.btn {
+    background-color: #55ACEE;
+    color: #FFFFFF;
+    padding: 0.5rem;
+}
+
+.modaltext {
+    margin-left: 1rem;
 }
