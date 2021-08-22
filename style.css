@@ -21,6 +21,7 @@
     transform: translateY(-100vh);
     z-index: 10;
 }
+    
 
 body {
     width: 100vw;
@@ -35,14 +36,12 @@ h4 , .confirm-modal , .close-modal {
     margin-left: 1rem;
 }
 
-.show-modal {
-    
-}
-
 .btn {
     background-color: #55ACEE;
     color: #FFFFFF;
     padding: 0.5rem;
+    border-radius: 5px;
+    border: #CCD6DD;
 }
 
 .modaltext {
